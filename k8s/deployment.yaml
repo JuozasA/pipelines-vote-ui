@@ -15,7 +15,7 @@ spec:
         app: pipelines-vote-ui
     spec:
       containers:
-        - image: quay.io/jauskalnis/pipelines-ui
+        - image: quay.io/jauskalnis/pipelines-vote-ui:v1
           imagePullPolicy: Always
           name: pipelines-vote-ui
           ports:
